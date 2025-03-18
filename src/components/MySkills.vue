@@ -34,7 +34,7 @@ import frontLogo from "../../public/img/front-logo.png";
 const cardSkillsClases = "col-md-6 col-xs-12 border-none";
 
 const tecnologiasBack = ["Express", "MongoDB", "Nodejs", "Javascript"];
-const tecnologiasFront = ["Vuejs", "CSS", "Quasar", "Ant Design Vue", "AWS"];
+const tecnologiasFront = ["Vuejs", "Quasar"];
 </script>
 
 <style>

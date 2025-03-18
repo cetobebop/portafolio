@@ -6,11 +6,12 @@ export default {
   },
   myPresentation: {
     title: "Frontend & Backend Developer",
-    subtitle: "I am looking for the opportunity to test my knowledge.",
+    subtitle:
+      "With experience in personal projects, I seek to learn how to create useful solutions for people in the real world.",
   },
   myGreeting: {
     title: "Hi, I’m Carlos. Nice to meet you.",
-    p: "I have been programming in Javascript for a year, I feel comfortable using it and its frameworks, now I recently graduated from TSU in IT, I am looking for a job opportunity.",
+    p: "I want to learn how to develop products in real-world environments, focusing on functionality and user friendliness, integrating simple interfaces.",
   },
   mySkill: {
     title: "Technologies",
@@ -19,11 +20,23 @@ export default {
   },
   myProyects: {
     title: "My proyects",
-    subtitle: "At the moment only practice sites",
+    subtitle: "Practice sites, deployed and maintained",
     cardProyect: {
       title: "Technologies",
       buttonSite: "See site",
       buttonCode: "See code",
+    },
+    proyects: {
+      chat_ai: {
+        title: "Login-Free Chat with Bots and AI",
+        description:
+          "Talk to strangers, but since there's probably no one around, integrate a couple of bots.",
+      },
+      exam_pdf_generator: {
+        title: "Dynamic PDF Lab Exam Generator",
+        description:
+          "I made it for my mom; the exam structure is varied. P.S. I don't think she liked it, but the experience remains.",
+      },
     },
   },
   myContact: {

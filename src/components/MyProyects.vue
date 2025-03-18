@@ -11,8 +11,8 @@
         v-for="(proyect, index) in proyects"
         :key="index"
         :srcImagen="proyect.srcImage"
-        :titulo="proyect.title"
-        :descripcion="proyect.description"
+        :titulo="proyectTranslate(proyect.id_name).title"
+        :descripcion="proyectTranslate(proyect.id_name).description"
         :link-codigo="proyect.linkGitHub"
         :link-sitio="proyect.linkSite"
         :tecnologias="proyect.technologies"
@@ -25,9 +25,7 @@
 <script setup>
 import CardProyects from "./CardProyects.vue";
 
-import { proyects } from "src/composables/proyects";
-
-console.log(proyects);
+import { proyects, proyectTranslate } from "src/composables/proyects";
 </script>
 
 <style scoped>

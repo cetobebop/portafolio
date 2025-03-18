@@ -4,8 +4,12 @@
       <q-img :src="srcImagen"> </q-img>
 
       <q-card-section>
-        <h6 class="q-mt-none q-mb-sm text-weight-regular">{{ titulo }}</h6>
-        <p class="text-subtitle2">{{ descripcion }}</p>
+        <div class="description">
+          <div class="title">
+            <h6 class="q-mt-none q-mb-sm text-weight-regular">{{ titulo }}</h6>
+          </div>
+          <p class="text-subtitle2">{{ descripcion }}</p>
+        </div>
 
         <div class="q-mb-sm">
           <q-badge
@@ -54,6 +58,14 @@ defineProps([
 </script>
 
 <style scoped>
+.description {
+  min-height: 200px;
+}
+
+.title {
+  min-height: 100px;
+}
+
 h6 {
   font-size: 1.5em;
 }

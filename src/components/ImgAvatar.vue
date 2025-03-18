@@ -13,16 +13,11 @@
 </template>
 
 <script setup>
-
-import imgAvatar from "../../public/img/dsf.jpg"
-
-
+import imgAvatar from "../../public/img/yo.jpg";
 </script>
 
 <style scoped>
-
-
-.img-container{
+.img-container {
   margin-top: 30px;
   margin-bottom: 50px;
 }

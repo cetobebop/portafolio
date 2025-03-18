@@ -6,11 +6,12 @@ export default {
   },
   myPresentation: {
     title: "Desarrollador Frontend y Backend",
-    subtitle: "Busco la oportunidad de poner a prueba mis conocimientos.",
+    subtitle:
+      "Con experiencia en proyectos personales, busco aprender cómo crear productos útiles para las personas en el mundo real.",
   },
   myGreeting: {
-    title: "Hola soy carlos. Encantado de conocerlo.",
-    p: "Programo en javascript desde hace un año, me siento cómodo en su manejo y el de sus frameworks, ahora recién egresado de TSU en informática, busco una oportunidad laboral.",
+    title: "Hola, soy Carlos. Encantado de conocerlo.",
+    p: "Quiero aprender cómo desarrollar productos en entornos reales, enfocándome en la funcionalidad y utilidad para el usuario, integrando interfaces sencillas.",
   },
   mySkill: {
     title: "Tecnologías",
@@ -19,11 +20,23 @@ export default {
   },
   myProyects: {
     title: "Mis proyectos",
-    subtitle: "Por el momento solo sitios de práctica",
+    subtitle: "Sitios de práctica, desplegados y mantenidos",
     cardProyect: {
       title: "Tecnologías",
       buttonSite: "Ver sitio",
       buttonCode: "Ver código",
+    },
+    proyects: {
+      chat_ai: {
+        title: "Chat sin Login con Bots e IA",
+        description:
+          "Habla con desconocidos, pero como seguramente no haya nadie, integre un par de bots.",
+      },
+      exam_pdf_generator: {
+        title: "Generador Dinámico de Exámenes de Laboratorio en PDF",
+        description:
+          "Lo hice para mi mamá, la estructura de los exámenes es variada. P. D. Creo que no le gusto, pero la experiencia queda.",
+      },
     },
   },
   myContact: {
