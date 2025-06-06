@@ -11,7 +11,7 @@ export default {
   },
   myGreeting: {
     title: "Hi, I’m Carlos. Nice to meet you.",
-    p: "I want to learn how to develop products in real-world environments, focusing on functionality and user friendliness, integrating simple interfaces.",
+    p: "I am a backend and frontend developer, I have developed several personal projects, I have knowledge in the management and configuration of noSql databases in the cloud such as MongoDB Atlas, I have detached from projects, development of real-time applications, consumption of APIs, user authentication, management of roles and creation of simple scrapers using Playwright.",
   },
   mySkill: {
     title: "Technologies",
@@ -30,12 +30,12 @@ export default {
       chat_ai: {
         title: "Login-Free Chat with Bots and AI",
         description:
-          "Talk to strangers, but since there's probably no one around, integrate a couple of bots.",
+          "Real-time multi-chat application using sockets, with message persistence (MongoDB Atlas), image storage via a bucket (Cloudflare), and leveraging an AI library (Hugginface) to add variety to the bots.",
       },
       exam_pdf_generator: {
         title: "Dynamic PDF Lab Exam Generator",
         description:
-          "I made it for my mom; the exam structure is varied. P.S. I don't think she liked it, but the experience remains.",
+          "A web app that generates lab exams, faithfully emulating their format. Using the pdf-lib library, a coordinate structure was created that allows for the generation of dynamic and mutable exams.",
       },
     },
   },

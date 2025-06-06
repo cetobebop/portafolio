@@ -18,7 +18,6 @@ import imgAvatar from "../../public/img/yo.jpg";
 
 <style scoped>
 .img-container {
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin: 30px 0 30px 0;
 }
 </style>

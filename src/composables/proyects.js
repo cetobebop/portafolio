@@ -15,7 +15,15 @@ export const proyects = [
   {
     id_name: "chat_ai",
     srcImage: chatLink,
-    technologies: ["Express", "MongoDB", "Vuejs", "Quasar"],
+    technologies: [
+      "Express",
+      "MongoDB",
+      "Vuejs",
+      "Quasar",
+      "SocketIo",
+      "Cloudflare",
+      "Hugginface",
+    ],
     linkSite: "https://chat-front-gk8r.onrender.com/",
     linkGitHub: "https://github.com/cetobebop/chat-front",
   },

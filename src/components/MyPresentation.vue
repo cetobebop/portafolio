@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div class="container relative-position">
+    <div id="my-greeting"></div>
     <div class="row text-center">
       <h3 class="col-xs-12 q-px-sm text-weight-light q-mt-none q-mb-lg">
         {{ $t("myPresentation.title") }}
@@ -10,13 +11,22 @@
       </p>
 
       <ImgAvatar class="col-xs-12"></ImgAvatar>
+      <my-presentation-information></my-presentation-information>
     </div>
 
-    <ImgFlayer class="q-mx-auto q-mt-md"></ImgFlayer>
+    <ImgFlayer class="q-mx-auto q-mt-sm"></ImgFlayer>
   </div>
 </template>
 
 <script setup>
 import ImgAvatar from "./ImgAvatar.vue";
 import ImgFlayer from "./ImgFlayer.vue";
+import MyPresentationInformation from "./MyPresentationInformation.vue";
 </script>
+
+<style scoped>
+#my-greeting {
+  position: absolute;
+  top: -70px;
+}
+</style>

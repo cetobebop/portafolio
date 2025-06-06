@@ -2,7 +2,7 @@
   <q-layout view="hHh lpR fFf" @resize="sizeStore.onResize">
     <q-header
       bordered
-      class="white absolute text-black no-border q-pt-md"
+      class="white absolute text-black no-border"
       height-hint="98"
     >
       <headerComponents></headerComponents>
@@ -28,7 +28,7 @@ const sizeStore = useSizeStore();
 <style scoped>
 .padding-pagecontainer {
   padding-bottom: 0 !important;
-  padding-top: 130px !important;
+  padding-top: 100px !important;
 }
 
 .white {

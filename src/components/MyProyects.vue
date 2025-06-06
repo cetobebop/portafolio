@@ -1,5 +1,6 @@
 <template>
-  <div class="container margin-bottom q-pt-lg" id="my-proyects">
+  <div class="container margin-bottom relative-position">
+    <div id="my-proyects"></div>
     <div class="text-center padding-botton">
       <h1 class="text-weight-light q-my-none q-mb-md">
         {{ $t("myProyects.title") }}
@@ -16,7 +17,7 @@
         :link-codigo="proyect.linkGitHub"
         :link-sitio="proyect.linkSite"
         :tecnologias="proyect.technologies"
-        class="col-lg-2 col-md-3 col-sm-8 col-xs-10"
+        class="col-md-3 col-sm-8 col-xs-10"
       ></CardProyects>
     </div>
   </div>
@@ -29,6 +30,11 @@ import { proyects, proyectTranslate } from "src/composables/proyects";
 </script>
 
 <style scoped>
+#my-proyects {
+  position: absolute;
+  top: -60px;
+}
+
 h1 {
   font-size: 3em;
   line-height: normal;

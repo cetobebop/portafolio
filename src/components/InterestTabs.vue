@@ -1,8 +1,6 @@
 <template>
   <div :class="classContainer">
-    <languageSelector
-      class="relative-position select q-mr-sm"
-    ></languageSelector>
+    <languageSelector class="select q-mr-sm"></languageSelector>
 
     <ButtonTabs
       v-for="(item, index) in ObjectLabels"
@@ -31,19 +29,17 @@ const props = defineProps({
 const { t } = useI18n();
 
 const ObjectLabels = ref({
-  contact: {
-    label: `${t("buttons.contactMe")}`,
-    href: "#my-contact",
+  proyects: {
+    label: `${t("buttons.myProyects")}`,
+    href: "#my-proyects",
   },
-
   about: {
     label: `${t("buttons.aboutMe")}`,
     href: "#my-greeting",
   },
-
-  proyects: {
-    label: `${t("buttons.myProyects")}`,
-    href: "#my-proyects",
+  contact: {
+    label: `${t("buttons.contactMe")}`,
+    href: "#my-contact",
   },
 });
 
@@ -54,7 +50,7 @@ watchEffect(() => {
 });
 
 let divButtons = "";
-let classContainer = "row justify-center items-end";
+let classContainer = "row justify-center items-center relative-position";
 
 if (props.isVertical) {
   classContainer += " width";
@@ -69,7 +65,9 @@ if (props.isVertical) {
 }
 
 .select {
-  top: 20px;
+  /* top: 1px; */
+  left: -60px;
+  /* z-index: 100; */
 }
 
 @media (min-width: 456px) {
